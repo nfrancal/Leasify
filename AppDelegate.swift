@@ -26,8 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
         GIDSignIn.sharedInstance().clientID = "1026867536240-vi3dv664um146iuie794js501venjhe6.apps.googleusercontent.com"
         
         // API Keys for Google Maps Services and Google Places Client
-        GMSServices.provideAPIKey("AIzaSyCqPGUH-JHq_VaxylvpG5EfeegqJ0N0BNM")
-        GMSPlacesClient.provideAPIKey("AIzaSyCqPGUH-JHq_VaxylvpG5EfeegqJ0N0BNM")
+        GMSServices.provideAPIKey("hidden")
+        GMSPlacesClient.provideAPIKey("hidden")
         
         
         return true
